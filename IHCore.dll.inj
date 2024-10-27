@@ -1,0 +1,31 @@
+; \IHCore\Command.cpp
+531413 = IHGameStart, 5
+;533062 = IHCommandClassRegister, 7
+;\IHCore\Test1.cpp
+6D4684 = UpdateFrame, 6
+52B390 = IHHasSec, 5
+;604136 = Game_DialogFunc_CB, 5
+;4A60E4 = PrintText01, 6
+;4A61C4 = PrintText02, 6
+;5BD3F4 = OutText01, 5
+;5D4F31 = CatchGetWindowTextA, 6
+;4C841E = CatchSetDlgItemTextA, 5
+6F9E50 = IHTechnoClassUpdate, 5
+;\IHCore\Test.StableHooks.cpp
+735060 = SimpleANSItoUTF16, 5, 32767
+6994F0 = ReadYRMData, 5, 114514, œ»±≤
+727CF0 = WWSB_Trim, 5
+;52CF7C = LoadRuleFiles, 6
+;525A60 = CCINIClass_ReadFile, 5
+6BBE56 = AllowMultipleInstances, 5
+;\IHCore\Optional.Hooks.cpp
+;Memory Allocation Check
+;7C8E17 = OperatorNew, 6
+;7C93E8 = IHFree, 5
+;7C946E = IHMalloc, 5
+;\IHCore\ExtCsf.cpp
+7346D0 = CSF_LoadBaseFile, 6
+734E83 = CSF_LoadStringA, 6
+410B58 = CSF_UINameLabelFix, 6
+;\Common\LocalLibManager.cpp
+6BC0CD = IHLoadRA2MD, 5
